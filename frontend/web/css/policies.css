@@ -1,0 +1,26 @@
+.riskInfo {
+  padding: 1em 0;
+  padding-left: 1em;
+  border-top: 1px solid #d5d5d5;
+}
+
+.riskInfo dl {
+  line-height: 1.5;
+}
+
+.riskInfo dt, .riskInfo dd {
+  padding: 2px 0;
+  font-size: 0.9em;
+}
+
+.riskInfo dt {
+  float: left;
+  clear: both;
+  font-weight: normal;
+}
+
+.riskInfo dd {
+  margin: 0;
+  float: right;
+  clear: right;
+}
