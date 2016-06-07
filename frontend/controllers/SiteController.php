@@ -236,8 +236,8 @@ class SiteController extends Controller
      */
     public function actionStatements()   {
       $cid = Yii::$app->user->identity->CustomerID;
-      $statements = Ledger::find()
-        ->where("[Customer No_] = '$cid'")
+      $statements = Ledger::find()->limit(4)
+        //->where("[Customer No_] = '$cid'")
         ->all();
 
       //print_r($statements); exit;

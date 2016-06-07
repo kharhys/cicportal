@@ -154,7 +154,7 @@ $url = (Yii::$app->request->baseUrl).'/site/lodgeclaim';
           </div>
           <br>
           <div class="dark center bottom">
-            <label for="step-0" style="color: #8b91a5">Start Over</label>
+            <button type="submit" style="padding: 0;"> <label for="step-0" style="padding-top: 5px;">Start Over</label> </button>
           </div>
         </form>
       </article>
